@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.navbar {
+  text-align: right;
+}
+
+.navbar button {
+  font-family: "Abel";
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar button:hover {
+  background-color: #DFDCE3;
+}
+
+header h1 {
+  text-align: left;
+  font-family: "Abel";
+  font-weight: normal;
+  font-size: 61px;
+  background-color: white;
+  padding-top: 40px;
+  padding-left: 30%;
+  padding-right:30%;
+  padding-bottom: 30px;
+}
+
+.blue {
+  background-color: #4ABDAC;
+  color: white;
+  display: inline;
+}
+
+.orange {
+  background-color: #FC4A1A;
+  color: white;
+  display: inline;
+}
+
+.yellow {
+  background-color: #F7B733;
+  color: white;
+  display: inline;
+}
+
+.gray {
+  background-color: #DFDCE3;
+  color: black;
+  display: inline;
+}
+
+.main {
+  font-family: "Abel";
+}
+
+.aboutme {
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 60px;
+  font-family: "Abel";
+  font-size: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-family: "Abel";
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.contact {
+  text-align: center;
+  font-family: "Abel";
+  font-size: 18px;
+  padding: 30px;
+}
+
+.contact a {
+  color: black;
+  font-weight: bold;
+}
+
+.socialmedia {
+  text-align: center;
+  font-size: 40px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#copyright {
+  text-align: center;
+  font-family: "Abel";
+  font-size: 16px;
+  color: gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

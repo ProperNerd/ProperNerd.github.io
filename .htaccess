@@ -1,3 +1,0 @@
-RewriteCond %{HTTP_HOST} thepropernerd\.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.thepropernerd.com/$1 [R,L]

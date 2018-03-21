@@ -86,6 +86,34 @@ header h1 {
   padding-top: 30px;
 }
 
+.wide {
+  width: 300px;
+  height: 200px;
+}
+
+.tall {
+  width: 200px;
+  height: 300px;
+}
+
+img:hover {
+    transform:scale(1.2);
+    -ms-transform:scale(1.2); /* IE 9 */
+    -moz-transform:scale(1.2); /* Firefox */
+    -webkit-transform:scale(1.2); /* Safari and Chrome */
+    -o-transform:scale(1.2); /* Opera */
+}
+
+.img-wrapper {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: all .2s ease;
+    vertical-align: middle;
+}
+
 .contact {
   text-align: center;
   font-family: "Abel";

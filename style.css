@@ -28,7 +28,7 @@
 }
 
 header h1 {
-  text-align: left;
+  text-align: center;
   font-family: "Abel";
   font-weight: normal;
   font-size: 61px;
@@ -45,10 +45,22 @@ header h1 {
   display: inline;
 }
 
+.blue:hover {
+  background-color: #FC4A1A;
+  color: white;
+  display: inline;
+}
+
 .orange {
   background-color: #FC4A1A;
   color: white;
   display: inline;
+}
+
+.orange:hover {
+  background-color: #F7B733;
+  color: white;
+  display: inline;  
 }
 
 .yellow {
@@ -57,11 +69,43 @@ header h1 {
   display: inline;
 }
 
+.yellow:hover {
+  background-color: #76B041;
+  color: white;
+  display:inline;
+}
+
+.green {
+  background-color: #76B041;
+  color: white;
+  display:inline;
+}
+
+.green:hover {
+  background-color: #4ABDAC;
+  color: white;
+  display: inline;
+
+}
+
+.pink {
+  background-color: #F71735;
+  color: white;
+  display: inline;
+}
+
+.pink:hover {
+  background-color: #76B041;
+  color: white;
+  display:inline;
+}
+
 .gray {
   background-color: #DFDCE3;
   color: black;
   display: inline;
 }
+
 
 .main {
   font-family: "Abel";
@@ -76,6 +120,11 @@ header h1 {
   font-size: 18px;
 }
 
+.skills {
+  text-align: center;
+  padding-top:30px;
+}
+
 .content {
   text-align: center;
 }
@@ -83,7 +132,6 @@ header h1 {
 .content h1 {
   font-family: "Abel";
   padding-bottom: 30px;
-  padding-top: 30px;
 }
 
 .wide {

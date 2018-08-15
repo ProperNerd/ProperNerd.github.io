@@ -1,194 +1,154 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+/*Color: #7ED6DF*/
+
+/*BASIC SETUP*/
 
 * {
-  margin: 0 auto;
-  padding: 0 auto;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
+html {
+	color: #2D2D2D;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+}
+
+/*REUSEABLE*/
+
+.row {
+	max-width: 1140px;
+	margin:0 auto;
+}
+
+h2 {
+	text-align: center;
+	color: #2D2D2D;
+	padding: 60px 0 50px 0;
+}
+
+/*HEADER*/
 
 .navbar {
-  text-align: right;
+	background-color: #FFF; 
+	text-align: center;
 }
 
-.navbar button {
-  font-family: "Abel";
-  font-size: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
-  border-style: none;
+.navbar li {
+	background-color: FFF;
+	display: inline-block;
+	padding: 0 15px 30px 15px;
 }
 
-.navbar a {
-  text-decoration: none;
-  color: white;
+.navbar li a:link,
+.navbar li a:visited {
+	color: #000;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 95%; 
+	transition: color 0.2s;
 }
 
-.navbar button:hover {
-  background-color: #DFDCE3;
+.navbar li a:hover,
+.navbar li a:active {
+	color: #7ED6DF;
 }
 
-header h1 {
-  text-align: center;
-  font-family: "Abel";
-  font-weight: normal;
-  font-size: 61px;
-  background-color: white;
-  padding-top: 40px;
-  padding-left: 20%;
-  padding-right:20%;
-  padding-bottom: 30px;
+.logo {
+	background-color: #FFF;
+	color: #CCC;
+	text-align: center;
+	font-weight: 400;
+	padding: 40px 0 30px 0;
+	margin: 0;
 }
 
-.blue {
-  background-color: #4ABDAC;
-  color: white;
-  display: inline;
+.logo span {
+	color: #7ED6DF;
 }
 
-.blue:hover {
-  background-color: #FC4A1A;
-  color: white;
-  display: inline;
+/*INTRO*/
+
+.intro {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/background.jpg);
+	/*Background image by Rafael De Nadai on Unsplash*/
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 50vh;
 }
 
-.orange {
-  background-color: #FC4A1A;
-  color: white;
-  display: inline;
+.intro .row {
+	text-align: center;
+	padding-top: 9%;
 }
 
-.orange:hover {
-  background-color: #F7B733;
-  color: white;
-  display: inline;  
+.intro h1 {
+	color: #7ED6DF;
+	text-align: center;
 }
 
-.yellow {
-  background-color: #F7B733;
-  color: white;
-  display: inline;
+.intro h2 {
+	color: #7ED6DF;
 }
 
-.yellow:hover {
-  background-color: #76B041;
-  color: white;
-  display:inline;
+.intro p {
+	color: #FFF;
 }
 
-.green {
-  background-color: #76B041;
-  color: white;
-  display:inline;
+/*ABOUT*/
+
+.section-about {
+	background-color: #E8E8E8;
+	padding-bottom: 70px;
 }
 
-.green:hover {
-  background-color: #4ABDAC;
-  color: white;
-  display: inline;
+/*PHOTOGRAPHY*/
 
+.photo { overflow: hidden; }
+
+.photo img {
+	width: 100%;
+	height: auto;
+	transition: transform 0.5s;
 }
 
-.pink {
-  background-color: #F71735;
-  color: white;
-  display: inline;
-}
-
-.pink:hover {
-  background-color: #76B041;
-  color: white;
-  display:inline;
-}
-
-.gray {
-  background-color: #DFDCE3;
-  color: black;
-  display: inline;
+.photo img:hover {
+	transform: scale(1.05);
+	-ms-transform:scale(1.05); /* IE 9 */
+    -moz-transform:scale(1.05); /* Firefox */
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -o-transform:scale(1.05); /* Opera */
 }
 
 
-.main {
-  font-family: "Abel";
+/*CONTACT*/
+
+.section-contact {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 60px;
 }
 
-.aboutme {
-  text-align: left;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 60px;
-  font-family: "Abel";
-  font-size: 18px;
+.section-contact h3 {
+	padding: 10px;
 }
 
-.skills {
-  text-align: center;
-  padding-top:30px;
+.section-contact a { color: #000; }
+
+.section-contact a:hover {
+	color: #207982;
+	transition: color 0.2s
 }
 
-.content {
-  text-align: center;
+/*FOOTER*/
+
+footer {
+	font-size: 80%;
+	text-align: center;
+	color: #000;
+	padding-bottom: 30px;
 }
 
-.content h1 {
-  font-family: "Abel";
-  padding-bottom: 30px;
-}
-
-.wide {
-  width: 300px;
-  height: 200px;
-}
-
-.tall {
-  width: 200px;
-  height: 300px;
-}
-
-img:hover {
-    transform:scale(1.2);
-    -ms-transform:scale(1.2); /* IE 9 */
-    -moz-transform:scale(1.2); /* Firefox */
-    -webkit-transform:scale(1.2); /* Safari and Chrome */
-    -o-transform:scale(1.2); /* Opera */
-}
-
-.img-wrapper {
-    display: inline-block;
-    overflow: hidden;
-}
-
-.img-wrapper img {
-    transition: all .2s ease;
-    vertical-align: middle;
-}
-
-.contact {
-  text-align: center;
-  font-family: "Abel";
-  font-size: 18px;
-  padding: 30px;
-}
-
-.contact a {
-  color: black;
-  font-weight: bold;
-}
-
-.socialmedia {
-  text-align: center;
-  font-size: 40px;
-}
-
-.socialmedia a {
-  text-decoration: none;
-  color: inherit;
-}
-
-#copyright {
-  text-align: center;
-  font-family: "Abel";
-  font-size: 16px;
-  color: gray;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}

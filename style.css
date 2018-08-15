@@ -72,7 +72,7 @@ h2 {
 /*INTRO*/
 
 .intro {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(http://res.cloudinary.com/dvnmnpkbt/image/upload/v1534361243/Background_ixukg4.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dvnmnpkbt/image/upload/v1534361243/Background_ixukg4.jpg);
 	/*Background image by Rafael De Nadai on Unsplash*/
 	background-position: center;
 	background-size: cover;

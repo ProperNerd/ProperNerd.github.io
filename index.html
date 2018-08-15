@@ -1,106 +1,126 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
-  <title>Sandy Smith | Web Developer/Designer</title>
+	<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<title>theProperNerd</title>
 </head>
-
 <body>
-  <div class = "navbar">
-    <button class = "yellow"><a href = "#about">About</a></button>
-    <button class = "orange"><a href = "#portfolio">Portfolio</a></button>
-    <button class = "blue"><a href = "#contactme">Contact Me</a></button>
-  </div>
+	<header>
+		<nav>
+			<div>
+				<h1 class="logo">the<span>Proper</span>Nerd</h1>
+				<ul class="navbar">
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#photography">Photography</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 
-  <header>  
-    <h1>Sandy Smith<br><span class = "blue">Web Developer</span><br><span class = "pink">Designer</span></h1>
-  </header>
+	<section class="intro">
+		<div class="row">
+			<h1>Hello!</h1>
+			<p>My name is Sandra.  I'm a freelance web developer and designer based in Shreveport, Louisiana.</p>
+	</section>
 
-  <div class = "main">
-    <div class = "aboutme">
-      <a id = "about">
-      <p>I've enjoyed creativity my entire life. I started out in video production, made my way to photography, and now I've taken a dive into web development.  This has, honestly, been my favorite experience thus far.  I get to do what I love, but show it off in a much bigger way.</p>  
-      <br>
-      <p>My goal is to share my creativity with others and hopefully help their careers progress in the process.  Even if you don't hire me, I hope you enjoy my work and can walk away inspired.  Let's make something special, shall we?</p>
-      <div class = "skills">
-        <h1>skills</h1>
-        <p><span class = "orange">HTML</span> <span class = "yellow">CSS</span> <span class = "blue">Javascript</span> <span class = "green">Node.js</span></p>
-      </div>
-    </div>
+	<section class="section-about">
+		<div class="row">
+			<a id="about"></a>
+			<h2>About Me</h2>
+			<p>I've enjoyed creativity my entire life. I started out in video production, made my way to photography, and now I've taken a dive into web development. This has, honestly, been my favorite experience thus far. I get to do what I love, but show it off in a much bigger way.</p>
+			<br>
+			<p>My goal is to share my creativity with others and hopefully help their careers progress in the process. Even if you don't hire me, I hope you enjoy my work and can walk away inspired. Let's make something special, shall we?</p>
+		</div>
+	</section>
 
-  </div>
+	<section class="section-photography">
+		<div class="row">
+			<a id="photography"></a>
+			<h2>Photography</h2>
+		</div>
+		<div class="row">
+			<div class="col span-1-of-3">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521644602/IMG_1189-400w_hu3ye6.jpg">
+				</figure>
+			</div>
+			<div class="col span-1-of-3">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521644943/IMG_0823-400x267_jp8tz8.jpg" alt = "boy with hat">
+				</figure>
+			</div>
+			<div class="col span-1-of-3">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645154/DSC00714-400x267_tm8j5v.jpg" alt = "candy store">
+				</figure>
+			</div>
+		</div>
 
-    <div class = "row">
-      <div class = "column">
-        <div class = "content">
-          <a id = "portfolio">
-          <h1>photography</h1>
-          <div class = "img-wrapper">
-            <img class = "wide" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521644602/IMG_1189-400w_hu3ye6.jpg">
-          </div>
+		<div class="row">
+			<div class="col span-1-of-3">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645213/DSC00786-400x267_mmdkbn.jpg" alt = "building with windows">
+				</figure>
+			</div>
+			<div class="col span-1-of-3">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645358/DSC02485-400x267_jstpvq.jpg" alt = "kids holding christmas lights">
+				</figure>
+			</div>
+			<div class="col span-1-of-3">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645478/IMG_3333-400x300_e3lugk.jpg" alt = "baby girl with blue eyes">
+				</figure>
+			</div>
+		</div>
 
-          <div class = "img-wrapper">
-            <img class = "wide" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521644943/IMG_0823-400x267_jp8tz8.jpg" alt = "boy with hat">
-          </div>
+		<div class="row">
+			<div class="col span-1-of-5">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645572/DSC02390-400x267_sknjjf.jpg" alt = "portrait of little girl">
+				</figure>
+			</div>
+			<div class="col span-1-of-5">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645691/DSC00628-400x267_upl30x.jpg" alt = "zebras">
+				</figure>
+			</div>
+			<div class="col span-1-of-5">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645771/DSC00944-400x267_g4prqu.jpg" alt = "little girl on slide">
+				</figure>
+			</div>
+			<div class="col span-1-of-5">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645836/DSC00622-400x267jpg_z0xd8p.jpg" alt = "tree">
+				</figure>
+			</div>
+			<div class="col span-1-of-5">
+				<figure class="photo">
+					<img src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645295/DSC02543-400x267_niw2sp.jpg" alt = "young girl with Christmas lights">
+				</figure>
+			</div>
+		</div>
 
-          <div class = "img-wrapper">
-            <img class = "wide" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645154/DSC00714-400x267_tm8j5v.jpg" alt = "candy store">
-          </div>
+	</section>
 
-          <br>
+	<section class="section-contact">
+		<div class="row">
+			<a id="contact"></a>
+			<h3>Contact</h3>
+			<p>Love my work?  Drop me a line.</p>
+			<p><a href="mailto:sandra@thepropernerd">sandra@thepropernerd.com</a></p>
+		</div>
+	</section>
 
-          <div class = "img-wrapper">
-            <img class = "wide" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645213/DSC00786-400x267_mmdkbn.jpg" alt = "building with windows">
-          </div>
+	<footer>
+		<p>&copy;2018 Sandra Smith.  All rights reserved</p>
+	</footer>
 
-          <div class = "img-wrapper">
-            <img class = "wide" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645358/DSC02485-400x267_jstpvq.jpg" alt = "kids holding christmas lights">
-          </div>
-
-          <div class = "img-wrapper">
-            <img class = "wide" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645478/IMG_3333-400x300_e3lugk.jpg" alt = "baby girl with blue eyes">
-          </div>
-
-          <br>
-
-          <div class = "img-wrapper">
-            <img class = "tall" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645572/DSC02390-400x267_sknjjf.jpg" alt = "portrait of little girl">
-          </div>
-
-          <div class = "img-wrapper">
-            <img class = "tall" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645691/DSC00628-400x267_upl30x.jpg" alt = "zebras">
-          </div>
-
-          <div class = "img-wrapper">
-            <img class = "tall" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645771/DSC00944-400x267_g4prqu.jpg" alt = "little girl on slide">
-          </div>
-
-          <div class = "img-wrapper">
-            <img class = "tall" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645836/DSC00622-400x267jpg_z0xd8p.jpg" alt = "tree">
-          </div>
-
-          <div class = "img-wrapper">
-            <img class = "tall" src = "https://res.cloudinary.com/dvnmnpkbt/image/upload/v1521645295/DSC02543-400x267_niw2sp.jpg" alt = "young girl with Christmas lights">
-          </div>
-          <!--<h1>projects</h1>-->  
-        </div>
-      </div>
-      
-      <div class = "contact">
-        <a id = "contactme">
-        <p>Love my work?  Drop me a line.</p>
-        <a href = "mailto:mrs.sandysmith@gmail.com">sandy@thepropernerd.com</a>     
-      </div>
-      
-        <div class = "socialmedia">
-          <a href = "https://github.com/ProperNerd" target = "_blank" class = "fa fa-github"></a>
-          <a href = "https://codepen.io/ProperNerd" target = "_blank" class = "fa fa-codepen"></a>
-        </div>
-      
-      <div id = "copyright">
-        <p>&copy;Sandra Smith</p>
-      </div>
-      
-  </div>
 </body>
 </html>

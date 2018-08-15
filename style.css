@@ -72,7 +72,7 @@ h2 {
 /*INTRO*/
 
 .intro {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjI0MX0&s=d0b997e69ea476d08f8604fa6f0a4105&auto=format&fit=crop&w=1438&q=80);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(http://res.cloudinary.com/dvnmnpkbt/image/upload/v1534361243/Background_ixukg4.jpg);
 	/*Background image by Rafael De Nadai on Unsplash*/
 	background-position: center;
 	background-size: cover;
